@@ -46,47 +46,51 @@
         
         function insertPublicKey() {
             document.getElementById("public_key").value = "" +
-                "-----BEGIN PGP PUBLIC KEY BLOCK-----\n" +
-                "\n" +
-                "mQGNBGJ8AJABDAC5dRl6LLmawFQmMGOaPU9DCrOg4zhlr14+bXa70ej2pZmvCtnY\n" +
-                "6la1inxm6Fp+/yqKg8rFXki8TG5+lmzwD+zvxUBOnF5w6BR1CjZjUDnex4P/p+FB\n" +
-                "G10Nk5pmwVDNYh9KTK+k2fcvBhu3BfgucNZm9tct6cRG/klWlrgYYk0MR5uU+9lI\n" +
-                "kWc6crCdjY39LmIHhqR7M3kWtLlA1DMb98lp4mAu81kyg6tASgahVib9BK/sWcMO\n" +
-                "DZOKdg4+vTS1W2wxAWPsBEHCxbmcQjiZ7FPDLCSy5yWfugRa394naUb7Prv+Qe3r\n" +
-                "x3CO3dRDVF2/cb+HYo+IelgBEMEvQ9thv2woZg2KQFupLvRz+XOFD9OMtdCqtbGj\n" +
-                "MNQjf73c4iHJvImB1RGsKQYMSFVhjDEXw7VY0BXPblZlHDJY7HMr2bv6sEd6SvHC\n" +
-                "kiKyFvENqFua0LKxA5OgrP8NpXZ9MERpYhLDbSzQSIU6y7kAJ/mLt6IthJyXfYY3\n" +
-                "lJcO3wcJA0ilqDsAEQEAAbQpQWxleGFuZGVyIEVwb2xpdGUgPGFsZXhhbmRlckBl\n" +
-                "cG9saXRlLm5ldD6JAc4EEwEKADgWIQQd0i5DqtbOKwSCHk+HtrIuxtMtRwUCYnwA\n" +
-                "kAIbAwULCQgHAgYVCgkICwIEFgIDAQIeAQIXgAAKCRCHtrIuxtMtR1VuC/0fsHQg\n" +
-                "FzRcoZosnjiCP91oSsliqszP8X/wn+RGu2lCjQaVVHCR7guy1V6YKK35QN7FvmlC\n" +
-                "6M1VE32/Sn4Luxa/9VoPOLkLt8dUcKOcLnVevKaNCOPExw9AQn0AiS9Vh4NMtMgg\n" +
-                "6drMipMi2YMud8qvsRx9282Scz2SAQ6q8RF6SsRt1uWqhaPQ0smWNVgzH+1+Nh7v\n" +
-                "3uT+TflWkcG3bIzzVYWwmCJIQviKBSBf6xsARKgDWd5O3GY0fY/nm2FhXG/TQBus\n" +
-                "QTPlVaV8VNWrW0f+iXs+u2HSBFoZ5c9rYtjjeaIos7BhEGCc9vZG9sfOr7DtiI7i\n" +
-                "4PnFL+LJWXs8um8HRz4MOwSwjjIP3Wl6ed3XJ738ezNqrM1tG8RsAc5j6VD+pyvc\n" +
-                "7ehjjfdnp0AKqx7Tw3bTTjQ9myUx47vixNa1vqZfQLdbzDo1JeTOi8qM0AOC5+Hy\n" +
-                "JIpKASkM6LBudwv0peFrTgCeC9nft5tpwKJ4PxpfLRHs41S9zUAKXYcMGDG5AY0E\n" +
-                "YnwAkAEMALuKrcgUmMo3QUzR5qhxiPOiAY8mPudSTCeJIUhwdCL4SEYhdbDzTGXE\n" +
-                "A4bhR4n0RClteIJ3STKxhjkgjoQpoXpMJXzaciLIOW+ATnaaUVk72NtbVpBAw/uy\n" +
-                "F1uOuljKHyDdr3wp48KEuje43T5Ca1usb+rBjnilrtJK811y4CGqo8zeMSJez9YN\n" +
-                "cR667S9x1s0Mq7Y80S40gNu2XIwCIdeQzzzSoSbkX4csf1fk4UuZi50kS8ck+EUa\n" +
-                "OPHrqzqVPrk5DaHXvWznRFJ+qDYxK/VdhllRENIItE2g0PUNs8yO6qZTA12g9bv3\n" +
-                "KiGiMQmXxOWwZk0EoNeyoLxfusq8JqHCAoQ/w3w04LxeJewjss7WRAxKZv56b/MC\n" +
-                "7Wsi5Tl7FXpUzKZoIkxQLk6hQzB7bOOZBXAimKvuwCzTJaOoanDGKWMYXMDlYklN\n" +
-                "rvn+2UvsA7lRoMvOkqw1V326SZTYscrlvUOAJGdWrDdYWcPz4BYZcse3QyMS7wi5\n" +
-                "1tNSFXSVGwARAQABiQG2BBgBCgAgFiEEHdIuQ6rWzisEgh5Ph7ayLsbTLUcFAmJ8\n" +
-                "AJACGwwACgkQh7ayLsbTLUfMuAv/SPvJiMhBS5eq8j3Lyi2Hw1QALv8BZzo3nn+8\n" +
-                "1n9ElHpSwQD9Kt2wEkRe1VpPVM00eipuRzklGOVqbfh29R6ga6Mlm8GmbkkEQ+Cm\n" +
-                "ojnYTrdtbLkWK8jP9wcAiEyPK8mCIDECtLPGCV2u+1WuBzOa8BgPOZDreDIb1Ds0\n" +
-                "IFx4XWtc84BokIaWM+AbA5Fi9etBGAaYjzDSU4BCYs8kj1u3/UFsN+xbzKtg+5ep\n" +
-                "fpSXZZaq+nklKl/h9TY3YJD2bjFNm+AB+STXLPWKlc62Jbw6NT6373X3p59kgcN1\n" +
-                "9iXUwU0SuHlZuBiWs8y6oQJ4ua/rJkv/Ed3Ibna7khNDaHUXCGr9eBDMvUlBLNH1\n" +
-                "yUenBrf28GSbciz4LVa7hkBQ7YcviJlLbThUY7Oy8DVfHFoca6sQmqVNfhsdrFRT\n" +
-                "yJNciS5hu1LzMSt9mqnrCkcPcV8HcMA8EeXQmMgiHW9WGF7XDMgitvM+VocY4JXo\n" +
-                "Nb3Q7Rxsuqw+B3gFUKfhnPvoAzZI\n" +
-                "=ulFv\n" +
-                "-----END PGP PUBLIC KEY BLOCK-----"
+`
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+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
+=vJpw
+-----END PGP PUBLIC KEY BLOCK-----
+`
         }
         
     </script>
@@ -95,6 +99,7 @@
 <noscript>
     <h1>Please enable JavaScript</h1>
 </noscript>
+<p>(please note i recently updated my keys, if you want proof it's still me i'll sign using my old key, it's still secure though)</p>
 <h2>Encrypt Message</h2>
 <label for="public_key">Public Key</label><button onclick="insertPublicKey()">Use my public key &lt;&zwj;al&zwj;exa&zwj;nd&zwj;er&commat;ep&zwj;o&zwj;lite&period;n&zwj;et&zwj;&gt;</button><br>
 <textarea id="public_key" rows="10" cols="50"></textarea><br><br>
